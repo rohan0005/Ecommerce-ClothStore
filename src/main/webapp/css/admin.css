@@ -1,0 +1,164 @@
+
+/* admin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  position: sticky;
+  width: 100%;
+  top: 0px;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+}
+
+header img {
+  width: 27px;
+  margin-left: 15px;
+}
+
+*
+.admin-flex
+{
+  display: flex;
+  height: 140px;
+}
+
+
+.logout-admin
+{
+  position: absolute;
+  width: 222px;
+  height: 82px;
+  left: 1241px;
+  top: 19px;
+  background-color: #DA000D;
+  color: white;
+  cursor: pointer;
+  border-color: transparent;
+}
+
+.logout-text
+{
+  margin: 15px 50px;
+}
+
+.welcome-admin
+{
+  height: 100px;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.admin-work
+{
+  height: 450px;
+  display: flex;
+
+}
+.manage-flex-admin
+{
+width: 250px;
+height: 289px;
+background: #46DB00;
+margin-left: 100px;
+margin-top: 70px;
+color: white;
+text-align: center;
+}
+.manage-admin-img
+{
+  width: 250px;
+  height: 233px;
+  margin-top: -12px;
+}
+
+  .add-product-flex
+  {
+    display: flex;
+  }
+  .add-prod-img
+  {
+    position: relative;
+    height: 680px;
+    width: 800px;
+    margin-top: -70px;
+    margin-left: 90px;
+
+  }
+  .txt-add-prod
+  {
+    font-size: 30px;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .txt-name
+  {
+    margin-left: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .input-box
+  {
+  width: 300px;
+  height: 40px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 20px;
+  resize: none;
+  }
+
+  .sub-btn
+  {
+    height: 40px;
+    width: 100px;
+    color: #ffffff;
+    background-color: #f1286e;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 330px;
+  }
+
+  .sub-btn:hover
+  {
+    background-color: #f4598f;
+  }
+
+  .back-href
+  {
+    color: #055cff;
+    margin-left: 60px;
+    font-size: 20px;
+  }
+  .back-href:hover
+  {
+    text-decoration: underline;
+  }
+  
+  .msg
+  {
+    color: #ff0000;
+    margin-left: 200px;
+  }
+  
+  
+.view-product
+{
+	border-color: transparent;
+	color: white; 
+	background-color: #46DB00;
+} 

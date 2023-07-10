@@ -1,0 +1,748 @@
+@charset "ISO-8859-1";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  position: sticky;
+  width: 100%;
+  top: 0px;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+}
+
+header img {
+  width: 27px;
+  margin-left: 15px;
+}
+
+/*footer*/
+.footer-section-wrapper {
+  background-color: #090909;
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.wrapper-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #cccbcb;
+  padding: 50px;
+}
+
+.wrapper-footer .about-website {
+  width: 20%;
+}
+
+.wrapper-footer .newsletter-section {
+  width: 20%;
+}
+
+.wrapper-footer .about-website p {
+  padding-top: 10px;
+  line-height: 32px;
+}
+
+.wrapper-footer h3 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.wrapper-footer>div {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-footer>div>a {
+  text-decoration: none;
+  padding-top: 20px;
+  color: white;
+}
+
+
+.header-color {
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.luxe-logo h1 {
+  max-width: 120px;
+  height: auto;
+  color: rgb(250, 12, 0);
+  font-family: 'Lucida Calligraphy Italic';
+  font-size: 35px;
+}
+
+
+.navmenu a {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+
+.navmenu {
+  display: flex;
+  width: 30%;
+  margin-left: 56px;
+  justify-content: space-between;
+
+}
+
+.navmenu a {
+  color: #2c2c2c;
+  font-size: 16px;
+  padding: 20px 20px;
+  /* padding: 10px 50px; */
+  font-weight: 400;
+}
+
+
+
+
+.looks {
+  max-width: 120px;
+  height: auto;
+  color: #36c000;
+  height: auto;
+  font-family: 'Gabriola';
+}
+
+.top-nav {
+  height: 40px;
+  width: 100%;
+  background-color: black;
+}
+
+.top-nav p {
+  padding: 13px 155px;
+  color: white;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content-log-reg {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 45px;
+  box-shadow: 0px 8px 16px 0px rgba(198, 28, 28, 0.2);
+  padding: 40px;
+  z-index: 1;
+}
+
+.dropdown-content-log-reg a:hover {
+  color: red;
+  transition: 0.5s ease;
+}
+
+.dropdown:hover .dropdown-content-log-reg {
+  display: block;
+  color: #ec3b3b;
+}
+
+.dropdown-link-login {
+  color: #4c3e8a;
+  margin-block-end: 20%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+}
+
+.dropdown-link-register {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  color: #4c3e8a;
+  margin-block-end: 40%;
+}
+
+.big-img {
+
+  height: 10%;
+  width: 100%;
+  position: relative;
+}
+
+.big-img-adj {
+  height: 100%;
+  width: 100%;
+}
+
+.payday-button {
+  height: 40px;
+  width: 140px;
+  color: white;
+  background-color: #e27618;
+  border-color: transparent;
+}
+
+.payday-button:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+
+/*Part2*/
+
+
+.texts {
+  position: absolute;
+  top: 190px;
+  left: 150px;
+  line-height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  /* opacity: 100; */
+
+}
+
+.texts h1 {
+  text-transform: uppercase;
+  width: 20%;
+
+}
+
+
+
+.button-shop button {
+  all: unset;
+  width: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 45px;
+  background-color: white;
+  color: black;
+  border: 0;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.button-shop button img {
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+
+.button-shop button:hover {
+  width: 140px;
+  transition: 0.3s ease;
+
+}
+
+.button-shop button:hover img {
+  display: block;
+}
+
+.new-arrivals {
+  margin: 30px 80px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.flex-box .galary img {
+  width: 290px; 
+  height: 410px;
+  border-radius: 20px;
+}
+
+.flex-box .galary img:hover {
+  transform: scale(1.02);
+  transition: 0.8s ease;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.collection {
+  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+
+}
+
+
+/*
+pART 3
+*/
+
+
+.discount-div {
+  padding-top: 7%;
+  height: 10%;
+  width: 100%;
+}
+
+.discount-div-img-adj {
+  height: 100%;
+  width: 100%;
+}
+
+.discount-image-text-container {
+
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  margin: 159px 980px;
+
+  background: #FFFFFF;
+  transform: matrix(1, -0.03, 0.04, 1, 0, 0);
+}
+
+.discount-image-text-payday {
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: 550;
+  font-size: 70px;
+  color: #000000;
+  margin: 170px 990px;
+}
+
+.discount-image-text-Sale {
+  width: 500px;
+  height: 100px;
+  position: absolute;
+  margin: 270px 990px;
+  font-family: sans-serif;
+  font-weight: 550;
+  font-size: 70px;
+  color: #000000;
+}
+
+.discount-image-text-1 {
+  position: absolute;
+  margin: 330px 990px;
+  width: 410px;
+  height: 100px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+  color: #231300;
+}
+
+.discount-image-text-2 {
+  position: absolute;
+  margin: 470px 990px;
+  width: 410px;
+  height: 100px;
+  font-family: 'Poppins';
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+  color: #231300;
+}
+
+.discount-image-text-3 {
+  position: absolute;
+  margin: 520px 990px;
+  width: 410px;
+  height: 100px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+  color: #231300;
+}
+
+.discount-btn {
+  margin: 100px 200px;
+}
+
+
+
+
+
+/*PRODUCTS PAGE CSS*/
+
+
+.all-product {
+
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 40px;
+  margin: 60px 80px;
+}
+
+.product-details-section {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.product-details-section div img {
+  width: 150px;
+}
+
+.product-details-section>div {
+  padding: 20px;
+}
+
+.product-detail p {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.product-details-section>div:hover {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.add-cart-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-cart-button button {
+  width: 100%;
+  height: 35px;
+  background-color: #dc3545;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0;
+  cursor: pointer;
+}
+
+.add-cart-button button:hover {
+  opacity: 0.8;
+}
+
+/*Contact*/
+
+.contact-main {
+  display: flex;
+  position: absolute;
+}
+
+.contact-img {
+  position: absolute;
+  height: 470px;
+  width: 830x;
+  margin-left: 650px;
+  margin-bottom: 20px;
+
+}
+
+.contact-img-cotainer {
+  margin: 20px 30px;
+
+}
+
+.contact-main-text {
+  font-size: 40px;
+  font-weight: 450;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  margin: 90px 200px;
+}
+
+.contact-submit-btn button {
+  width: 100px;
+  height: 35px;
+  background-color: #dc3545;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0;
+  cursor: pointer;
+
+}
+
+.contactus-page-form input,
+textarea {
+
+  padding-left: 8px;
+}
+
+.contact-fname {
+  height: 40px;
+  width: 230px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.contact-last-email {
+  height: 40px;
+  width: 230px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.contact-message {
+  height: 160px;
+  width: 60%;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+/*login*/
+.new-user {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.register {
+  color: blueviolet;
+  margin-left: 10px;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.login-flex {
+  display: flex;
+  margin-top: 50px;
+}
+
+.login-image {
+  width: 750px;
+  height: 550px;
+}
+
+
+.welcome-msg {
+  font-size: 45px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  margin: 10px 70px;
+}
+
+.login-msg {
+  font-size: 20px;
+  opacity: 0.6;
+  margin-left: 70px;
+}
+
+.input-box-username {
+  width: 55%;
+  padding: 12px 20px;
+  margin: 60px 70px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.input-box-pwd {
+  width: 55%;
+  padding: 12px 20px;
+  margin: -10px 70px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.login-btn {
+  border-radius: 10px;
+  height: 55px;
+  width: 120px;
+  margin: 60px 70px;
+  border: transparent;
+  background-color: blueviolet;
+  color: white;
+  font-size: 17px;
+
+}
+
+.login-btn:hover {
+  background-color: #ec3b3b;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.forgot-pwd {
+  margin-left: 100px;
+  color: #300ed6dc;
+
+}
+
+.forgot-pwd:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/*Regist*/
+.register-flex {
+  display: flex;
+  margin-left: 90px;
+}
+
+.register-img {
+  height: 100%;
+  width: 700px;
+}
+
+.get-started {
+  margin: 0px 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  font-size: 35px;
+  color: blueviolet;
+}
+
+.get-started-desc {
+  margin-left: 50px;
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+.reg-text {
+  width: 55%;
+  padding: 10px 5px;
+  margin: 15px 50px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.register-btn {
+  border-radius: 10px;
+  height: 50px;
+  width: 120px;
+  margin: 30px 50px;
+  border: transparent;
+  background-color: blueviolet;
+  color: white;
+  font-size: 17px;
+}
+
+.register-btn:hover {
+  cursor: pointer;
+  background-color: #38c548;
+}
+
+.login-redirect {
+  margin-left: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  font-size: 17px;
+  color: #3b19f9;
+
+
+}
+
+.already-have-account {
+  margin-left: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  font-size: 17px;
+  margin-top: 40px;
+}
+
+.check-box {
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+/*IMAGE*/
+/* file upload button */
+input[type="file"]::file-selector-button {
+  border-radius: 4px;
+  padding: 0 16px;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+
+  transition: background-color 200ms;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+/* file upload button hover state */
+input[type="file"]::file-selector-button:hover {
+  background-color: #f3f4f6;
+}
+
+/* file upload button active state */
+input[type="file"]::file-selector-button:active {
+  background-color: #e5e7eb;
+}
+
+
+
+/*Search*/
+    .search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-right: 10px;
+}
+
+.form-control {
+  width: 200px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 8px 12px;
+}
+
+select.form-control {
+  width: 120px;
+}
+
+.btn {
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0062cc;
+}
+
+
